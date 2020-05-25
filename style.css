@@ -1,0 +1,81 @@
+body
+{background-color: #DADDDF;
+font-family: Montserrat, sans-serif;
+color: gray;
+line-height: 1.5;}
+
+h1
+{color: red;
+font-weight: bold;}
+
+a
+{text-decoration: none;}
+
+.whole
+{display: grid;
+height: 1300px;
+grid-template-rows: 1fr 1fr 1fr;
+align-items: center;
+justify-content: space-around;
+}
+
+.section
+{background-color: white;
+width: 500px;
+text-align: center;
+border-radius: 8px;}
+
+.imagecropper
+{width: 100px;
+height: 100px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+border: solid silver 2px;
+border-radius: 50%;
+}
+
+.profile
+{display: inline;
+margin: 0 auto;
+
+height: 100%;
+width: auto;}
+
+.flex
+{display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top: 20px;
+padding-bottom: 20px;}
+
+.button
+{opacity: 0.4;}
+
+.button:hover
+{opacity: 1;}
+
+.movies img
+{float: left;
+vertical-align: middle;
+width: 100px;
+}
+
+.movit
+{clear: left;
+display: table;
+border-spacing: 20px;
+}
+
+.vertal
+{display: table-cell;
+
+vertical-align: middle;}
+
+footer
+{text-align: right;
+font-style: italic;
+font-size: 0.5em;}
+
+
